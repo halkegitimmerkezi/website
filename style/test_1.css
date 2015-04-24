@@ -1,0 +1,127 @@
+/*Header start*/
+.header{
+	
+	width: 100%;
+	height: 100px;
+	background: yellow;
+	//margin: 0 10%;
+	
+}
+.logo{
+	float: left;
+	margin: 0 0 0 10%;
+	height: 100%;
+	width: 20%;
+	background: green;
+}
+.input{float: left;
+	height: 20%;
+	width: 60%;
+	background: #81BEF7;
+}
+/* input button start*/
+.head_button{
+	font-family: verdana;
+	font-size: 13px;
+	float: left;
+	border: dotted;
+}
+/* input button end*/
+.siparis{
+	float: right;
+	//margin-top: 1%;
+	margin-right: 10%;
+	height: 80%;
+	width: 20%;
+	background: red;
+}
+.menu{
+	float: left;
+	//margin-top:100px; 
+	margin-left: 10%;
+	height: 20px;
+	width: 80%;
+	background: orange;
+
+}/*Menu list*/
+.menu_list{
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	list-style: none;
+	
+
+}
+.menu_list li{
+	float: left;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+
+}
+a{
+	text-decoration:none;
+}
+.pop_menu{
+	height: 60px;
+	width: 80%;
+	background: black;
+	display: none;/*bu ozellik sonradan bakilacak*/
+}
+/*Header end*/
+/*Body start*/
+.body{
+	height: 600px;
+	background: grey;
+	margin: 0 10%;
+}
+.element{
+	width: 28%;
+	height: 100px;
+	margin: 2%;
+	background: #990000;
+	float: left;
+	border:#CCC dotted 1px;
+}
+.last{
+	float: left;
+	width: 100%;
+	height: 60px;
+	background: #009900;
+	display: none;/*Last review ilk kullanimda acilmamali*/
+}
+/*Body end*/
+/*Footer start*/
+.footer{
+	height: 100px;
+	background: yellow;
+	margin: 0 10%;
+}
+.sosyal{
+	height: 25px;
+	width: 100%;
+	background: #990033;
+}
+.links{
+	float: left;
+	height: 60%;
+	width: 25%;
+	margin: 1%;
+	background: #009900;	
+}
+.map{
+	float: left;
+	height: 60%;
+	width: 25%;
+	margin: 0 10%;
+	margin-top: 1%;
+	background: #009900;	
+}
+.iletisim{
+	float: right;
+	height: 60%;
+	width: 25%;
+	margin: 1%;
+	background: #009900;	
+}
+/*Footer end*/
