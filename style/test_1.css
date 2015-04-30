@@ -26,12 +26,13 @@
 #aramaFormu input{
 	width:92%;
 	height:30px;
+	margin-top: 25px;
 	padding-left:0.5%;
 	padding-right:0.5%;
 	float:left;
 	border:none;
 	background-color:#FFF;
-	font-size:18px;
+	font-size:100%;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	outline:none;
 	color:#000;
@@ -50,6 +51,7 @@
 	background:url(../img/ara.png) no-repeat center center #6CF;
 	cursor:pointer;
 	opacity:0.7;
+	margin-top: 25px;
 }
 /*-----------------arama bölümü bitiş-------------*/
 .input{
@@ -131,8 +133,6 @@
 	border:#CCC dotted 1px;
 	
 }
-<<<<<<< HEAD
-=======
 .elementInfo{
 	display: block;
 	width: 100%;/*Usttei alanin icinde oldugu icin %100 olabilir.*/
@@ -141,15 +141,12 @@
 	position: relative;
 	margin: -20px 0 0 0;
 	z-index: 2;
-	
 }
 .element img{
 	width: 100%;
 	height: 100%;
 	z-index: 1;
 }
-
->>>>>>> origin/master
 .last{
 	float: left;
 	width: 100%;
