@@ -44,17 +44,6 @@
 	background: orange;
 
 
-<<<<<<< HEAD
-=======
-}/*Menu list*/
-.menu a{
-	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	list-style: none;
-	text-align: center;
-	
->>>>>>> origin/master
 }
 /*Menu list*/
 .menu a{
@@ -63,16 +52,9 @@
 	font-size: 13px;
 	list-style: none;
 	text-align: center;
-<<<<<<< HEAD
 	width: 20%;
 	height: 100%;
 	display: block;
-=======
-
->>>>>>> origin/master
-}
-.menu_list li{
->>>>>>> origin/master
 	float: left;
 
 }
