@@ -18,6 +18,40 @@
 	width: 20%;
 	background: green;
 }
+/*-----------------arama bölümü başlangıç-------------*/
+#aramaFormu{
+	overflow:hidden;
+}
+
+#aramaFormu input{
+	width:92%;
+	height:30px;
+	padding-left:0.5%;
+	padding-right:0.5%;
+	float:left;
+	border:none;
+	background-color:#FFF;
+	font-size:18px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	outline:none;
+	color:#000;
+}
+
+#aramaFormu button:hover{
+	background: #69F;
+}
+	
+#aramaFormu button{
+	width:7%;
+	height:30px;
+	float:left;
+	text-indent:-9999px;
+	border:none;
+	background: #6CF;
+	cursor:pointer;
+	opacity:0.7;
+}
+/*-----------------arama bölümü bitiş-------------*/
 .input{
 	float: left;
 	height: 20%;
