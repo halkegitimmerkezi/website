@@ -89,13 +89,26 @@
 	margin: 0 10%;
 }
 .element{
-	width: 28%;
-	height: 100px;
-	margin: 2%;
+	max-width: 260px;
+	width: 150px;
+	height: 220px;
+	margin:5px 5px 0 5px; 
 	background: #990000;
 	float: left;
 	border:#CCC dotted 1px;
 }
+.elementInfo{
+	display: block;
+	width: 100%;/*Usttei alanin icinde oldugu icin %100 olabilir.*/
+	height: 20%;
+	background-color: yellow;
+	position: inherit;
+}
+.element img{
+	width: 100%;
+	height: 80%;
+}
+
 .last{
 	float: left;
 	width: 100%;
