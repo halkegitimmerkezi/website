@@ -49,8 +49,6 @@
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	list-style: none;
-	
-
 }
 .menu_list li{
 	float: left;
@@ -72,7 +70,7 @@ a{
 /*Body start*/
 .body{
 	height: 600px;
-	background: grey;
+	background: gray;
 	margin: 0 10%;
 }
 .element{
