@@ -95,11 +95,22 @@
 	background: yellow;
 	margin: 0 10%;
 }
+/*Sosyal alan baslangic*/
 .sosyal{
 	height: 25px;
 	width: 100%;
-	background: #990033;
+	background: #fff;
 }
+.sosyal a{
+	float: right;
+	padding-left: 1px;
+}
+.sosyal img{
+	width: 25px;
+	height: 25px;
+}
+/*Sosyal alan bitis*/
+
 .links{
 	float: left;
 	height: 60%;
