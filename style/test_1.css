@@ -4,7 +4,7 @@
 	width: 100%;
 	height: 100px;
 	background: yellow;
-	//margin: 0 10%;
+	/*margin: 0 10%;*/
 	
 }
 .logo{
@@ -37,24 +37,38 @@
 }
 .menu{
 	float: left;
-	//margin-top:100px; 
+	/*margin-top:100px; */
 	margin-left: 10%;
 	height: 20px;
 	width: 80%;
 	background: orange;
 
+
 }/*Menu list*/
-.menu_list{
+.menu a{
+text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	list-style: none;
+<<<<<<< HEAD
+=======
+	text-align: center;
+	
+}
+/*.menu_list{
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	list-style: none;
+	text-align: center;
+
+>>>>>>> origin/master
 }
 .menu_list li{
 	float: left;
-	width: 20%;
-	height: 100%;
-	text-align: center;
+	
+	/*height: 100%;*/
+	
 
 }
 a{
