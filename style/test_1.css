@@ -44,33 +44,22 @@
 	background: orange;
 
 
-}/*Menu list*/
-.menu a{
-text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	list-style: none;
-	text-align: center;
-	
 }
-/*.menu_list{
+/*Menu list*/
+.menu a{
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	list-style: none;
 	text-align: center;
-
-}
-.menu_list li{
+	width: 20%;
+	height: 100%;
+	display: block;
 	float: left;
-	
-	/*height: 100%;*/
-	
 
 }
-a{
-	text-decoration:none;
-}
+
+
 .pop_menu{
 	height: 60px;
 	width: 80%;
@@ -81,7 +70,7 @@ a{
 /*Body start*/
 .body{
 	height: 600px;
-	background: grey;
+	background: gray;
 	margin: 0 10%;
 }
 .element{
