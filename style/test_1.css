@@ -1,11 +1,4 @@
 /*Header start*/
-.sabitle{
-	position: fixed;
-	width: 100%;
-	height: 200px;
-	left: 0;
-	top: 0;
-}
 .kapla{
 	width: 100%;
 	position: absolute;
@@ -28,6 +21,7 @@
 	height: 25px;
 	background: #000;
 }
+
 .header{
 	width: 960px;
 	height: 125px;
@@ -89,21 +83,13 @@
 }
 
 #aramaFormu input{
-<<<<<<< HEAD
 	width:500px;
 	height:31px;
 	padding-left: 10px;
-=======
-	width:92%;
-	height:30px;
-	margin-top: 25px;
-	padding-left:0.5%;
-	padding-right:0.5%;
->>>>>>> 0a95d222d90923d24fdbeb4ba0800568d79f35b0
 	float:left;
 	border:none;
 	background-color:#FFF;
-	font-size:100%;
+	font-size:18px;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	outline:none;
 	color:#000;
@@ -121,11 +107,6 @@
 	border:none;
 	background:url(../img/ara.png) no-repeat center center orange;
 	cursor:pointer;
-<<<<<<< HEAD
-=======
-	opacity:0.7;
-	margin-top: 25px;
->>>>>>> 0a95d222d90923d24fdbeb4ba0800568d79f35b0
 }
 /*-----------------arama bölümü bitiş-------------*/
 .giris{
@@ -264,7 +245,6 @@ Menu list
 	background-image:url(../img/bg.jpg);
 	margin: 0 auto;
 	padding:20px;
-	margin-top: 200px;
 }
 .element{
 	/*max-width: 260px;*/
@@ -284,12 +264,9 @@ Menu list
 	position: relative;
 	margin: -20px 0 0 0;
 	z-index: 2;
-<<<<<<< HEAD
 }
 .elementFiyat{
 	font-size: 10px;
-=======
->>>>>>> 0a95d222d90923d24fdbeb4ba0800568d79f35b0
 }
 .element img{
 	width: 150px;
@@ -312,6 +289,13 @@ Menu list
 	width: 960px;
 	background: yellow;
 	margin: 0 auto;
+}
+.kapla4{
+	width: 100%;
+	position: absolute;
+	height: 200px;
+	background: #45AAC1;
+	z-index: -9999; 
 }
 /*Sosyal alan baslangic*/
 .sosyal{
@@ -336,27 +320,26 @@ Menu list
 	height: 120px;
 	width: 288px;
 	/*margin-top: 40px;*/
-	margin-left: 43px;
-	padding: 2px;
+	margin-left: 21px;
+/*	padding: 2px;*/
 	background: #009900;
-	position: inherit;	
+/*	position: inherit;*/	
 }
 .map{
-	float: left;
-	position: inherit;	
+/*	position: inherit;	*/
 	height: 120px;
 	width: 288px;
-	padding: 2px;
-	/*margin-top: 40px;*/
+/*	padding: 2px;*/
+	margin: 0px auto;
 	background: #009900;	
 }
 .iletisim{
-	position: inherit;	
-	float: left;
+/*	position: inherit;*/	
+	float: right;
 	height: 120px;
 	width: 288px;
-	/*margin-top: 40px;*/
-	padding: 2px;	
+	margin-right: 21px;
+/*	padding: 2px;*/	
 	background: #009900;	
 }
 /*Footer end*/

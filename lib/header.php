@@ -25,7 +25,6 @@
 
 	</head>
 	<body>
-		<div class="sabitle">
 		<div class="kapla"></div>
 		<div class="kapla2"></div>
 		<div class="kapla3">
@@ -74,5 +73,5 @@
 				<li><a href="#">Siparişe başla</a></li>
 			</ul>
 		</div>
-	</div>
+
 	<div class="body">
