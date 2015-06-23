@@ -22,7 +22,21 @@
 		<title><?php echo basename($_SERVER['PHP_SELF']);?></title>
 		<link rel="stylesheet" type="text/css" href="style/test_1.css">
 		<link rel="stylesheet" type="text/css" href="style/reset_1.css">
-
+		<!-- Goole maps icin -->
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script>
+		  function initialize() {
+		    var mapCanvas = document.getElementById('map-canvas');
+		    var mapOptions = {
+		      center: new google.maps.LatLng(39.7870, 32.8109),
+		      zoom: 8,
+		      mapTypeId: google.maps.MapTypeId.ROADMAP
+		    }
+		    var map = new google.maps.Map(mapCanvas, mapOptions);
+		  }
+		   google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+		<!-- maps end -->
 	</head>
 	<body>
 		<div class="kapla"></div>

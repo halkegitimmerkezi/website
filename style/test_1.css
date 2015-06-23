@@ -285,33 +285,38 @@ Menu list
 
 /*Footer start*/
 .footer{
-	height: 200px;
+	height: 160px;
 	width: 960px;
-	background: yellow;
+	background: #d9eef2;
 	margin: 0 auto;
 }
 .kapla4{
 	width: 100%;
 	position: absolute;
-	height: 200px;
-	background: #45AAC1;
+	height: 160px;
+	background: #d9eef2;
 	z-index: -9999; 
 }
 /*Sosyal alan baslangic*/
 .sosyal{
-	height: 30px;
-	width: 100%;
-	padding-top: 2px;
-	/*background: #fff;*/
-	position: inherit;
-}
-.sosyal a{
+	height: 20px;
 	float: right;
-	padding-left: 1px;
 }
+
 .sosyal img{
-	width: 25px;
-	height: 25px;
+	width: 20px;
+	height: 20px;
+}
+.sosyal a, .adres{
+	font-size: 14px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	display: block;
+	border-left: 2px solid;
+	border-bottom: 1px dotted;
+	text-decoration: none;
+	color: #45AAC1;
+	float: left;
+	padding: 2px;
 }
 /*Sosyal alan bitis*/
 
@@ -319,28 +324,51 @@ Menu list
 	float: left;
 	height: 120px;
 	width: 288px;
-	/*margin-top: 40px;*/
-	margin-left: 21px;
-/*	padding: 2px;*/
-	background: #009900;
-/*	position: inherit;*/	
+	margin-left: 21px;	
 }
+
+/* links style start */
+.links ul li{
+	font-size: 14px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-left: 10px;
+	margin-top: 6px;
+	display: block;
+	border-left: 1px solid #45AAC1;
+
+}
+.links ul li a{
+	text-decoration: none;
+	color: #45AAC1;
+	border-bottom: 1px dotted #45AAC1;
+
+}
+/********************/
 .map{
-/*	position: inherit;	*/
 	height: 120px;
 	width: 288px;
-/*	padding: 2px;*/
+	float: left;
 	margin: 0px auto;
-	background: #009900;	
+	background: #7cc3d3;
 }
+#map-canvas {
+        width: 288px;
+        height: 120px;
+ }
+
+
 .iletisim{
-/*	position: inherit;*/	
 	float: right;
 	height: 120px;
 	width: 288px;
-	margin-right: 21px;
-/*	padding: 2px;*/	
-	background: #009900;	
+	margin-left: 21px;
+}
+.adres{
+	float: left;
+	display: block;
+	width: 160px;
+	font-size: 12px;
+	height: 120px;
 }
 /*Footer end*/
 
@@ -349,7 +377,7 @@ Menu list
 	border: dotted 1px #FF8800;
 	border-left: 2px solid #FF8811;
 	display: block;
-	cursor:wait; /*fare isaretcisini degistirdim.*/
+	cursor:crosshair; /*fare isaretcisini degistirdim.*/
 	width: 288px;
 	font-size: 14px;
 	color: #FF8800;
@@ -370,4 +398,4 @@ Menu list
 	background: #C14564;
 
 }
-/*************/
+/************
