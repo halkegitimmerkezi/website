@@ -1,0 +1,9 @@
+mysql query sorgu demek
+mysql_query("START TRANSACTION"); bunu yapinca is demeti geliyor.
+if(ile basla)
+mysql_query("COMMIT") eger degerlenirmemiz dogru ise yap
+else
+mysql_query("ROLLBACK") degil ise yapma
+
+
+veri tabani olusturulurken depolama motorlari soruluyor innoDB gibi bu transectiona 

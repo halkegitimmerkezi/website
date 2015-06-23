@@ -1,39 +1,17 @@
 /*Header start*/
-.sabitle{
-	position: fixed;
-	width: 100%;
-	height: 200px;
-	left: 0;
-	top: 0;
-}
 .kapla{
 	width: 100%;
 	position: absolute;
 	height: 135px;
 	background: #45AAC1;
-	margin-top:25px;
 	z-index: -9999; 
-}
-.kapla2{
-	width: 100%;
-	position: absolute;
-	height: 40px;
-	background: #FF8800;
-	z-index: -9999;
-	top:160px;
-}
-.kapla3{
-	width: 100%;
-	position: fixed;
-	height: 25px;
-	background: #000;
 }
 .header{
 	width: 960px;
 	height: 125px;
 	padding-top: 10px;
 	background: #45AAC1;
-	margin: 0 auto;
+	margin: 0 auto; 
 }
 .logo{
 	position: relative;
@@ -41,37 +19,17 @@
 	height: 100%;
 	width: 192px;
 	background: #45AAC1;
-	margin-top: 25px;
-}
-.giris_alani{
-	width: 960px;
-	height: 25px;
-	background: #000;
-	margin: 0 auto;
+	margin-left: 0 auto;
 }
 
 /*--------------------menü başlangıç-------------------*/
 
-.menu{
-	width: 480px;
-	height: 40px;
-	background: #FF8800;
-	margin: 0 auto;
-	margin-bottom: 25px;
-}
+
 .menu ul li{
-	width: 120px;
+	width: 80px;
 	height: 40px;
 	background: #FF8800;
 	float: left;
-	display: block;
-	text-align: center;
-	line-height: 40px;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-}
-.menu ul li a{
-	color: #000;
-	text-decoration: none;
 }
 
 
@@ -83,13 +41,12 @@
 	overflow: hidden;
 	position: absolute;
 	margin-top: 40px;
-	margin-left: -35px;
 	border-radius: 30px;
 	box-shadow: 0px 2px 1px 0px #000;
 }
 
 #aramaFormu input{
-	width:500px;
+	width:390px;
 	height:31px;
 	padding-left: 10px;
 	float:left;
@@ -117,83 +74,33 @@
 /*-----------------arama bölümü bitiş-------------*/
 .giris{
 	float: right;
-	height: 25px;
+	height: 100%;
 	width: 300px;
+	background: #45AAC1;
 }
-.giris ul li{
-	float: right;
-	display: block;
-	width: 60px;
-	font-size: 14px;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	line-height: 25px;
-	text-align: center;
-	margin-left: 10px;
-}
-.giris ul li a{
-	text-decoration: none;
-	color: #FF8800;
-}
-.giris_yap{
-	width: 200px;
-	height: 135px;
-	background: #FFF;
-	right: 67px;
-	position: relative;
-	display: none;
-}
-.giris ul li:hover .giris_yap{
-	display: block;
-}
-.giris ul li a:hover{
-	color:#45AAC1;
-}
-.giris_yap button{
-	width:70px;
-	margin-top: 2.5px;
+.giris input{
+	width:250px;
+	padding-left: 10px;
 	height:25px;
+	margin-left: 10px;
 	border:none;
-	background:#45AAC1;
-	cursor:pointer;
-	color: #FFF;
-}
-.giris_hata{
-	width: 288px;
-	margin: 0 auto;
+	background-color:#FFF;
+	font-size:14px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	outline:none;
+	color:#000;
 }
 
-.giris_hata button{
-	
-	margin-top: 2.5px;
-	height:25px;
-	border:none;
-	background:#45AAC1;
-	cursor:pointer;
-	color: #FFF;
-}
 .input{
 	float: left;
-	width: 528px;
+	width: 468px;
 	height: 100%;
 	position: relative;
 	background: #45AAC1;
-	margin-top: 25px;
 	/*padding-left: 15%;*/
 }
-
-.form_elemani{
-	width: 250px;
-	height: 220px;
-	background: #FFF;
-	margin: 0 auto;
-}
-.form_elemani input{
-	width: 245px;
-	height: 20px;
-	margin: 0 auto;
-}
 /* input button start*/
-/*.head_button{
+.head_button{
 	font-family: verdana;
 	font-size: 13px;
 	text-decoration: none;
@@ -201,8 +108,8 @@
 	display: block;
 	float: left;
 	width: 50%;
-	line-height: 39px;
-	height: 39px;
+	line-height: 40px;
+	height: 40px;
 	text-align: center;
 	border:none;
 	cursor:pointer;
@@ -210,7 +117,7 @@
 
 .head_button:active{
 	color:black;
-}*/
+}
 /* input button end*/
 
 /*
@@ -247,11 +154,9 @@ Menu list
 
 /*Body start*/
 .body{
-	width: 920px;
+	width: 960px;
 	background-image:url(../img/bg.jpg);
 	margin: 0 auto;
-	padding:20px;
-	margin-top: 200px;
 }
 .element{
 	/*max-width: 260px;*/
@@ -344,31 +249,3 @@ Menu list
 	background: #009900;	
 }
 /*Footer end*/
-
-/* ONAY HATA */
-.onay,.hata{
-	border: dotted 1px #FF8800;
-	border-left: 2px solid #FF8811;
-	display: block;
-	cursor:wait; /*fare isaretcisini degistirdim.*/
-	width: 288px;
-	font-size: 14px;
-	color: #FF8800;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	line-height: 20px;
-	text-shadow: 0 0 1px #000000;
-	padding-left: 4px;
-	text-align: center;
-	top: 200px;
-	left:40%;
-	z-index:999;
-	position: fixed;
-}
-.onay{
-	background: #45AAC1;
-}
-.hata{
-	background: #C14564;
-
-}
-/*************/

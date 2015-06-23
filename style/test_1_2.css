@@ -1,0 +1,214 @@
+/*Header start*/
+.header{
+	
+	width: 960px;
+	height: 120px;
+	background: yellow;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	/*margin: 0 0 0 10%;*/
+	height: 100%;
+	width: 192px;
+	background: green;
+}
+/*-----------------arama bölümü başlangıç-------------*/
+#aramaFormu{
+	overflow:hidden;
+	position: absolute;
+	margin-top: 90px;
+}
+
+#aramaFormu input{
+	width:200px;
+	height:30px;
+	/*padding-left:0.5%;
+	padding-right:0.5%;*/
+	float:left;
+	border:none;
+	background-color:#FFF;
+	font-size:18px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	outline:none;
+	color:#000;
+}
+
+#aramaFormu button:hover{
+	background:url(../img/ara.png) no-repeat center center #69F;
+}
+	
+#aramaFormu button{
+	width:30px;
+	height:30px;
+	float:left;
+	text-indent:-9999px;
+	border:none;
+	background:url(../img/ara.png) no-repeat center center #6CF;
+	cursor:pointer;
+	opacity:0.7;
+}
+/*-----------------arama bölümü bitiş-------------*/
+.input{
+	float: left;
+	width: 576px;
+	height: 100%;
+	position: relative;
+	background: #81BEF7;
+	/*padding-left: 15%;*/
+}
+/* input button start*/
+.head_button{
+	font-family: verdana;
+	font-size: 13px;
+	text-decoration: none;
+	background: orange;
+	display: block;
+	float: left;
+	width: 40%;
+	height: 20%;
+	text-align: center;
+}
+
+.head_button:active{
+	color:black;
+}
+/* input button end*/
+.siparis{
+	float: right;
+	/*//margin-top: 1%;*/
+	/*margin-right: 10%;*/
+	height: 100%;
+	width: 192px;
+	background: red;
+}
+.menu{
+	float: left;
+	/*margin-top:100px; */
+	margin-left: 0 auto;
+	height: 25px;
+	width: 100%;
+	background: yellow;
+}
+/*Menu list*/
+.menu a{
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	list-style: none;
+	text-align: center;
+	width: 96px;
+	height: 100%;
+	display: block;
+	float: left;
+
+}
+
+
+.pop_menu{
+	height: 60px;
+	width: 80%;
+	background: black;
+	display: none;/*bu ozellik sonradan bakilacak*/
+}
+/*Header end*/
+
+/*Body start*/
+.body{
+	width: 960px;
+	/*height: /*burasi bos*/;
+	background-image:url(../img/bg.jpg);
+	background-repeat:repeat;
+	margin: 0 auto;
+}
+.element{
+	/*max-width: 260px;*/
+	width: 150px;
+	height: 220px;
+	margin:5px 5px 0 5px; 
+	background: #990000;
+	float: left;
+	border:#CCC dotted 1px;
+	
+}
+.elementInfo{
+	display: block;
+	width: 100%;/*Usttei alanin icinde oldugu icin %100 olabilir.*/
+	height: 20px;
+	background-color: yellow;
+	position: relative;
+	margin: -20px 0 0 0;
+	z-index: 2;
+}
+.elementFiyat{
+	font-size: 10px;
+}
+.element img{
+	width: 150px;
+	height: 220px;
+	z-index: 1;
+}
+.last{
+	float: left;
+	width: 100%;
+	height: 60px;
+	background: #009900;
+	display: none;/*Last review ilk kullanimda acilmamali*/
+}
+/*Body end*/
+
+
+/*Footer start*/
+.footer{
+	height: 200px;
+	width: 960px;
+	background: yellow;
+	margin: 0 auto;
+}
+/*Sosyal alan baslangic*/
+.sosyal{
+	height: 30px;
+	width: 100%;
+	padding-top: 2px;
+	/*background: #fff;*/
+	position: inherit;
+}
+.sosyal a{
+	float: right;
+	padding-left: 1px;
+}
+.sosyal img{
+	width: 25px;
+	height: 25px;
+}
+/*Sosyal alan bitis*/
+
+.links{
+	float: left;
+	height: 120px;
+	width: 288px;
+	/*margin-top: 40px;*/
+	margin-left: 43px;
+	padding: 2px;
+	background: #009900;
+	position: inherit;	
+}
+.map{
+	float: left;
+	position: inherit;	
+	height: 120px;
+	width: 288px;
+	padding: 2px;
+	/*margin-top: 40px;*/
+	background: #009900;	
+}
+.iletisim{
+	position: inherit;	
+	float: left;
+	height: 120px;
+	width: 288px;
+	/*margin-top: 40px;*/
+	padding: 2px;	
+	background: #009900;	
+}
+/*Footer end*/
