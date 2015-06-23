@@ -89,13 +89,21 @@
 }
 
 #aramaFormu input{
+<<<<<<< HEAD
 	width:500px;
 	height:31px;
 	padding-left: 10px;
+=======
+	width:92%;
+	height:30px;
+	margin-top: 25px;
+	padding-left:0.5%;
+	padding-right:0.5%;
+>>>>>>> 0a95d222d90923d24fdbeb4ba0800568d79f35b0
 	float:left;
 	border:none;
 	background-color:#FFF;
-	font-size:18px;
+	font-size:100%;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	outline:none;
 	color:#000;
@@ -113,6 +121,11 @@
 	border:none;
 	background:url(../img/ara.png) no-repeat center center orange;
 	cursor:pointer;
+<<<<<<< HEAD
+=======
+	opacity:0.7;
+	margin-top: 25px;
+>>>>>>> 0a95d222d90923d24fdbeb4ba0800568d79f35b0
 }
 /*-----------------arama bölümü bitiş-------------*/
 .giris{
@@ -271,9 +284,12 @@ Menu list
 	position: relative;
 	margin: -20px 0 0 0;
 	z-index: 2;
+<<<<<<< HEAD
 }
 .elementFiyat{
 	font-size: 10px;
+=======
+>>>>>>> 0a95d222d90923d24fdbeb4ba0800568d79f35b0
 }
 .element img{
 	width: 150px;
