@@ -245,34 +245,54 @@ Menu list
 	background-image:url(../img/bg.jpg);
 	margin: 0 auto;
 	padding:20px;
+	height: 600px;
 }
 .element{
-	/*max-width: 260px;*/
 	width: 120px;
 	height: 160px;
-	margin:5px 5px 0 5px; 
-	background: #990000;
-	float: left;
 	border:#CCC dotted 1px;
-	
+	margin: 4px;
+	z-index: 0;
+	float: left;
 }
 .elementInfo{
 	display: block;
-	width: 100%;/*Usttei alanin icinde oldugu icin %100 olabilir.*/
-	height: 20px;
-	background-color: yellow;
-	position: relative;
-	margin: -20px 0 0 0;
-	z-index: 2;
+	width: 90px;/*Usttei alanin icinde oldugu icin %100 olabilir.*/
+	height: 40px;
+	text-align: center;
+	background-color: #45AAC1;
+	z-index: 1;
+	float: left;
+	margin: 20px 0 0 0;
 }
 .elementFiyat{
-	font-size: 10px;
+	display: block;
+	width: 30px;
+	height: 60px;
+	background-color: #45AAC1;
+	z-index: 1;
+	font-size: 25px;
+	text-align: center;
+	float: right;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-.element img{
-	width: 150px;
-	height: 220px;
+.elementtl{
+	width: 16px;
+	height: 20px;
 	z-index: 1;
 }
+.elementBaslik{
+	display: block;
+	text-align: center;
+	width: 80px;/*Usttei alanin icinde oldugu icin %100 olabilir.*/
+	height: 20px;
+	background-color: #FF8800;
+	margin: 100% 0 0 0;
+	z-index: 1;
+	float: left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 .last{
 	float: left;
 	width: 100%;
@@ -398,4 +418,13 @@ Menu list
 	background: #C14564;
 
 }
-/************
+/************/
+
+.orta{
+	margin: 0 auto;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	line-height: 20px;
+	text-shadow: 0 0 1px #000000;
+	text-align: center;
+	width: 300px;
+}

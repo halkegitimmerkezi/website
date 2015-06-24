@@ -8,7 +8,7 @@
 		$sifre=trim($_POST['sifre']);/*Gizli (post) gelen sifre alindi. $sifre olarak kullanildi.*/
 		$gizli_sifre=sha1($sifre); /*sifre gizlendi*/
 			if(empty($kadi)==false && empty($sifre)==false) {
-				login($kadi,$gizli_sifre);/*$gizli_sifre ile degistir. yeni kayit alirken sifre degismeli*/
+				login($kadi,$gizli_sifre);
 			}else {
 				mesaj($hata="Kullanıcı adı veya şifre boş bırakılamaz!");
 			}
@@ -45,8 +45,17 @@
 			<div class="giris_alani">
 				<div class="giris"> 
 					<ul>
-						<li><a href="register.php" class="head_button">Kayıt ol</a></li>
-						<li><a href="login.php" class="head_button">Giriş yap</a>
+						<?php
+						if(isset($_SESSION['k_bilgi'])==1){
+							if($_SESSION['k_bilgi']['on']==0){
+								echo "<li><a href=\"register.php\" class=\"head_button\">Kayıt ol</a></li>";
+								echo "<li><a href=\"login.php\" class=\"head_button\">Giriş yap</a>";
+							}else{
+								echo "<li class=\"adres\">".$_SESSION['k_bilgi']['isim']."_".$_SESSION['k_bilgi']['soyisim']."</li>";
+								echo "<li><a href=\"cikis.php\" class=\"head_button\">Cikis</a></li>";
+							}
+						}
+						?>
 							<div class="giris_yap">
 								<form action="" method="post">
 									Kullanıcı adı</br><input type="text" autocomplete="off" name="kadi"></br>

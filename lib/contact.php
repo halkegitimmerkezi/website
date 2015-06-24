@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 $baglanti=mysql_connect("localhost","root","");
 if($baglanti==false) {
 	die("Bağlantı Kurulamadı ");
